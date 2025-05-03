@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://app.gradient.network/signup?code=YGX1M0') no-repeat center center fixed; /* Sunset image background */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.score {
+  position: fixed;
+  color: #fff;
+  background: #000000;
+  border-radius: 5px;
+  padding: 10px 30px;
+  top: 50px;
+  left: 5vw;
+}
+
+.free-label {
+  position: fixed;
+  top: 10px;
+  left: 5vw;
+  background-color: #ff00eeb3;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  z-index: 1000;
+}
+
+.tv {
+  width: 90vw;
+  height: 60vh;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.player {
+  width: 50px;
+  height: 50px;
+  background-color: #dc1818; /* Circle color */
+  border-radius: 50%; /* Makes it a circle */
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  transition: all 300ms;
+}
+
+.enemy {
+  background: rgb(0, 0, 0);
+  width: 50px;
+  height: 70px;
+  left: 100%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+}
